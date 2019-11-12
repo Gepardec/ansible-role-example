@@ -1,4 +1,8 @@
 ---
+language: bash
+
+version: ~> 1.0
+
 python:
   - "3.4"
   - "3.5"
@@ -40,8 +44,8 @@ env:
     # - TOX_DISTRO: "alpine310" TOX_ANSIBLE: "latest"
     # - TOX_DISTRO: "alpine39" TOX_ANSIBLE: "latest"
     # - TOX_DISTRO: "alpine38" TOX_ANSIBLE: "latest"
-
-#    - TOX_DISTRO: "clearlinux:latest"
+    
+    # - TOX_DISTRO: "clearlinux:latest"
 
 script:
   # Run tests.
