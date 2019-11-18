@@ -47,11 +47,11 @@ env:
     
     # - TOX_DISTRO="clearlinuxlatest" TOX_ANSIBLE="latest"
 
-    - TOX_DISTRO="debianlatest"     TOX_ANSIBLE="latest"    MOLECULE_DEBUG="true"
-    - TOX_DISTRO="debianstable"     TOX_ANSIBLE="latest"    MOLECULE_DEBUG="true"
-    - TOX_DISTRO="debian10"         TOX_ANSIBLE="latest"    MOLECULE_DEBUG="true"
-    - TOX_DISTRO="debian9"          TOX_ANSIBLE="latest"    MOLECULE_DEBUG="true"
-    - TOX_DISTRO="debian8"          TOX_ANSIBLE="latest"    MOLECULE_DEBUG="true"
+    - TOX_DISTRO="debianlatest"     TOX_ANSIBLE="latest"    MOLECULE_NO_LOG="false"
+    - TOX_DISTRO="debianstable"     TOX_ANSIBLE="latest"    MOLECULE_NO_LOG="false"
+    - TOX_DISTRO="debian10"         TOX_ANSIBLE="latest"    MOLECULE_NO_LOG="false"
+    - TOX_DISTRO="debian9"          TOX_ANSIBLE="latest"    MOLECULE_NO_LOG="false"
+    - TOX_DISTRO="debian8"          TOX_ANSIBLE="latest"    MOLECULE_NO_LOG="false"
 
     # - TOX_DISTRO="fedoralatest"     TOX_ANSIBLE="latest"
     # - TOX_DISTRO="fedora30"         TOX_ANSIBLE="latest"
